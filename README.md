@@ -13,12 +13,12 @@ Install the SDK by adding the following dependency in your project's pom.xml fil
 <dependency>
   <groupId>org.test</groupId>
   <artifactId>api-javatest</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.2</version>
 </dependency>
 ```
 
 You can also view the package at:
-https://central.sonatype.com/artifact/org.test/api-javatest/0.0.1
+https://central.sonatype.com/artifact/org.test/api-javatest/0.0.2
 
 ## Test the SDK
 
@@ -32,14 +32,14 @@ In Eclipse, for running the tests do the following:
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/ZahraN444/releasejavarepo/tree/0.0.1/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/ZahraN444/releasejavarepo/tree/0.0.2/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
 | Parameter | Type | Description |
 |  --- | --- | --- |
 | environment | `Environment` | The API environment. <br> **Default: `Environment.PRODUCTION`** |
-| httpClientConfig | [`Consumer<HttpClientConfiguration.Builder>`](https://www.github.com/ZahraN444/releasejavarepo/tree/0.0.1/doc/http-client-configuration-builder.md) | Set up Http Client Configuration instance. |
+| httpClientConfig | [`Consumer<HttpClientConfiguration.Builder>`](https://www.github.com/ZahraN444/releasejavarepo/tree/0.0.2/doc/http-client-configuration-builder.md) | Set up Http Client Configuration instance. |
 
 The API client can be initialized as follows:
 
@@ -53,29 +53,29 @@ APIMATICCalculatorClient client = new APIMATICCalculatorClient.Builder()
 
 ## List of APIs
 
-* [Simple Calculator](https://www.github.com/ZahraN444/releasejavarepo/tree/0.0.1/doc/controllers/simple-calculator.md)
+* [Simple Calculator](https://www.github.com/ZahraN444/releasejavarepo/tree/0.0.2/doc/controllers/simple-calculator.md)
 
 ## SDK Infrastructure
 
 ### Configuration
 
-* [Configuration Interface](https://www.github.com/ZahraN444/releasejavarepo/tree/0.0.1/doc/configuration-interface.md)
-* [HttpClientConfiguration](https://www.github.com/ZahraN444/releasejavarepo/tree/0.0.1/doc/http-client-configuration.md)
-* [HttpClientConfiguration.Builder](https://www.github.com/ZahraN444/releasejavarepo/tree/0.0.1/doc/http-client-configuration-builder.md)
+* [Configuration Interface](https://www.github.com/ZahraN444/releasejavarepo/tree/0.0.2/doc/configuration-interface.md)
+* [HttpClientConfiguration](https://www.github.com/ZahraN444/releasejavarepo/tree/0.0.2/doc/http-client-configuration.md)
+* [HttpClientConfiguration.Builder](https://www.github.com/ZahraN444/releasejavarepo/tree/0.0.2/doc/http-client-configuration-builder.md)
 
 ### HTTP
 
-* [Headers](https://www.github.com/ZahraN444/releasejavarepo/tree/0.0.1/doc/headers.md)
-* [HttpCallback Interface](https://www.github.com/ZahraN444/releasejavarepo/tree/0.0.1/doc/http-callback-interface.md)
-* [HttpContext](https://www.github.com/ZahraN444/releasejavarepo/tree/0.0.1/doc/http-context.md)
-* [HttpBodyRequest](https://www.github.com/ZahraN444/releasejavarepo/tree/0.0.1/doc/http-body-request.md)
-* [HttpRequest](https://www.github.com/ZahraN444/releasejavarepo/tree/0.0.1/doc/http-request.md)
-* [HttpResponse](https://www.github.com/ZahraN444/releasejavarepo/tree/0.0.1/doc/http-response.md)
-* [HttpStringResponse](https://www.github.com/ZahraN444/releasejavarepo/tree/0.0.1/doc/http-string-response.md)
+* [Headers](https://www.github.com/ZahraN444/releasejavarepo/tree/0.0.2/doc/headers.md)
+* [HttpCallback Interface](https://www.github.com/ZahraN444/releasejavarepo/tree/0.0.2/doc/http-callback-interface.md)
+* [HttpContext](https://www.github.com/ZahraN444/releasejavarepo/tree/0.0.2/doc/http-context.md)
+* [HttpBodyRequest](https://www.github.com/ZahraN444/releasejavarepo/tree/0.0.2/doc/http-body-request.md)
+* [HttpRequest](https://www.github.com/ZahraN444/releasejavarepo/tree/0.0.2/doc/http-request.md)
+* [HttpResponse](https://www.github.com/ZahraN444/releasejavarepo/tree/0.0.2/doc/http-response.md)
+* [HttpStringResponse](https://www.github.com/ZahraN444/releasejavarepo/tree/0.0.2/doc/http-string-response.md)
 
 ### Utilities
 
-* [ApiException](https://www.github.com/ZahraN444/releasejavarepo/tree/0.0.1/doc/api-exception.md)
-* [ApiHelper](https://www.github.com/ZahraN444/releasejavarepo/tree/0.0.1/doc/api-helper.md)
-* [FileWrapper](https://www.github.com/ZahraN444/releasejavarepo/tree/0.0.1/doc/file-wrapper.md)
+* [ApiException](https://www.github.com/ZahraN444/releasejavarepo/tree/0.0.2/doc/api-exception.md)
+* [ApiHelper](https://www.github.com/ZahraN444/releasejavarepo/tree/0.0.2/doc/api-helper.md)
+* [FileWrapper](https://www.github.com/ZahraN444/releasejavarepo/tree/0.0.2/doc/file-wrapper.md)
 
